@@ -32,9 +32,8 @@ class ConverterPage extends StatefulWidget {
 class _ConverterPageState extends State<ConverterPage> {
   final TextEditingController _inputController = TextEditingController();
   String _result = "0";
-  bool _isBinaryToDecimal = true; // Dönüşüm yönünü tutar
+  bool _isBinaryToDecimal = true; 
 
-  // Senin yazdığın mantığın Dart versiyonu (Binary to Decimal)
   void _convertToDecimal(String binary) {
     try {
       int decimal = 0;
@@ -57,7 +56,6 @@ class _ConverterPageState extends State<ConverterPage> {
     }
   }
 
-  // Senin yazdığın mantığın Dart versiyonu (Decimal to Binary)
   void _convertToBinary(String decimalStr) {
     try {
       int n = int.parse(decimalStr);
