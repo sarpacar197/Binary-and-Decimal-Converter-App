@@ -2,7 +2,7 @@
 
 A clean, minimalist, and efficient mobile application that performs real-time conversions between Binary (Base-2) and Decimal (Base-10) number systems.
 
-## 📌 Project Overview
+##  Project Overview
 
 The app is built using **Flutter & Dart**, ensuring high performance and a smooth UI across both Android and iOS platforms.
 
